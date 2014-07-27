@@ -13,6 +13,6 @@
    limitations under the License.
 
 ##Contact
-  blog:http://www.flakor.cn
-  email:saint@aliyun.com
+  * blog:http://www.flakor.cn
+  * email:saint@aliyun.com
 	
