@@ -1,0 +1,207 @@
+!!com.taobao.tae.config.domain.Config
+
+#应用元信息
+title: 特价精选--淘尚之城，购物之都，每日特价，优惠购物，9块9包邮，VIP专享，特价疯抢
+description:  淘都-汇聚一条街，省去一座城
+version: 1
+language: php
+author: Saint Hsu
+thumbnail: /taodu.jpg
+
+#type: 1 tae 模块 2 独立站点
+type: 2
+
+#全局css的配置
+css: /assets/stylesheets/index.css
+
+#首页
+index: /view/front/index.php
+#act: /view/activity/index.php
+#user: /view/front/user.php
+#roll: /view/front/roll.php
+#管理首页
+
+
+#http请求配置
+urls:
+#前端页面
+- {handler: /view/front/index.php, url: /index}
+- {handler: /view/activity/index.php, url: /act}
+- {handler: /view/front/user.php, url: /user}
+- {handler: /view/front/special.php, url: /special}
+- {handler: /view/front/jingxuan.php, url: /jing}
+- {handler: /view/front/roll.php, url: /roll}
+- {handler: /view/front/pro.php, url: /pro}
+- {handler: /view/front/link.php, url: /link}
+
+#SEO U站
+- {handler: /uz/10010/index.php, url: /10010}
+- {handler: /uz/10kuaiqian/index.php, url: /10kuaiqian}
+- {handler: /uz/10mst/index.php, url: /10mst}
+- {handler: /uz/126789/index.php, url: /126789}
+- {handler: /uz/1314/index.php, url: /1314}
+- {handler: /uz/1fenbao/index.php, url: /1fenbao}
+- {handler: /uz/1zw/index.php, url: /1zw}
+- {handler: /uz/51buy/index.php, url: /51buy}
+- {handler: /uz/51dazhe/index.php, url: /51dazhe}
+- {handler: /uz/521fx/index.php, url: /521fx}
+- {handler: /uz/52tao/index.php, url: /52tao}
+- {handler: /uz/55888/index.php, url: /55888}
+- {handler: /uz/800zhe/index.php, url: /800zhe}
+- {handler: /uz/8090/index.php, url: /8090}
+- {handler: /uz/90shis/index.php, url: /90shis}
+- {handler: /uz/aibaobao/index.php, url: /aibaobao}
+- {handler: /uz/aidongdong/index.php, url: /aidongdong}
+- {handler: /uz/aijia/index.php, url: /aijia}
+- {handler: /uz/aiwantu/index.php, url: /aiwantu}
+- {handler: /uz/aiyouhui/index.php, url: /aiyouhui}
+- {handler: /uz/aizheer/index.php, url: /aizheer}
+- {handler: /uz/ascloud/index.php, url: /ascloud}
+- {handler: /uz/baidatuan/index.php, url: /baidatuan}
+- {handler: /uz/baobaokong/index.php, url: /baobaokong}
+- {handler: /uz/batao/index.php, url: /batao}
+- {handler: /uz/chaoliu/index.php, url: /chaoliu}
+- {handler: /uz/coubei/index.php, url: /coubei}
+- {handler: /uz/duchang/index.php, url: /duchang}
+- {handler: /uz/dujia/index.php, url: /dujia}
+- {handler: /uz/ezheway/index.php, url: /ezheway}
+- {handler: /uz/fengtao/index.php, url: /fengtao}
+- {handler: /uz/fqtuan/index.php, url: /fqtuan}
+- {handler: /uz/girl/index.php, url: /girl}
+- {handler: /uz/gossipstar/index.php, url: /gossipstar}
+- {handler: /uz/goubz/index.php, url: /goubz}
+- {handler: /uz/haoyouhui/index.php, url: /haoyouhui}
+- {handler: /uz/hiznzn/index.php, url: /hiznzn}
+- {handler: /uz/huiyuangou/index.php, url: /huiyuangou}
+- {handler: /uz/ichic/index.php, url: /ichic}
+- {handler: /uz/id/index.php, url: /id}
+- {handler: /uz/ifenxiang/index.php, url: /ifenxiang}
+- {handler: /uz/jdmiaosha/index.php, url: /jdmiaosha}
+- {handler: /uz/jegege/index.php, url: /jegege}
+- {handler: /uz/jianbb/index.php, url: /jianbb}
+- {handler: /uz/jianshi/index.php, url: /jianshi}
+- {handler: /uz/jiapin/index.php, url: /jiapin}
+- {handler: /uz/jiaxiangwei/index.php, url: /jiaxiangwei}
+- {handler: /uz/jiejie/index.php, url: /jiejie}
+- {handler: /uz/jiukuaiyou/index.php, url: /jiukuaiyou}
+- {handler: /uz/ju/index.php, url: /ju}
+- {handler: /uz/juanpi/index.php, url: /juanpi}
+- {handler: /uz/jumei/index.php, url: /jumei}
+- {handler: /uz/jutaohui/index.php, url: /jutaohui}
+- {handler: /uz/jutuangou/index.php, url: /jutuangou}
+- {handler: /uz/juxihuan/index.php, url: /juxihuan}
+- {handler: /uz/kxmd/index.php, url: /kxmd}
+- {handler: /uz/lanmama/index.php, url: /lanmama}
+- {handler: /uz/lecu/index.php, url: /lecu}
+- {handler: /uz/legou/index.php, url: /legou}
+- {handler: /uz/lively/index.php, url: /lively}
+- {handler: /uz/love8/index.php, url: /love8}
+- {handler: /uz/mao/index.php, url: /mao}
+- {handler: /uz/meilibang/index.php, url: /meilibang}
+- {handler: /uz/mianfei/index.php, url: /mianfei}
+- {handler: /uz/mianyouba/index.php, url: /mianyouba}
+- {handler: /uz/miaosa/index.php, url: /miaosa}
+- {handler: /uz/mmrizhi/index.php, url: /mmrizhi}
+- {handler: /uz/modson/index.php, url: /modson}
+- {handler: /uz/movie/index.php, url: /movie}
+- {handler: /uz/mytehui/index.php, url: /mytehui}
+- {handler: /uz/okman/index.php, url: /okman}
+- {handler: /uz/paimai/index.php, url: /paimai}
+- {handler: /uz/qiang/index.php, url: /qiang}
+- {handler: /uz/qiangmiaosha/index.php, url: /qiangmiaosha}
+- {handler: /uz/qiannian/index.php, url: /qiannian}
+- {handler: /uz/qiushidaquan/index.php, url: /qiushidaquan}
+- {handler: /uz/quansoso/index.php, url: /quansoso}
+- {handler: /uz/sale/index.php, url: /sale}
+- {handler: /uz/shimaoquan/index.php, url: /shimaoquan}
+- {handler: /uz/shiyonglianmeng/index.php, url: /shiyonglianmeng}
+- {handler: /uz/so/index.php, url: /so}
+- {handler: /uz/soquan/index.php, url: /soquan}
+- {handler: /uz/ssqy/index.php, url: /ssqy}
+- {handler: /uz/tao800/index.php, url: /tao800}
+- {handler: /uz/tao900/index.php, url: /tao900}
+- {handler: /uz/taovip/index.php, url: /taovip}
+- {handler: /uz/taoyibao/index.php, url: /taoyibao}
+- {handler: /uz/tbvip/index.php, url: /tbvip}
+- {handler: /uz/tealife/index.php, url: /tealife}
+- {handler: /uz/tejia/index.php, url: /tejia}
+- {handler: /uz/tejia8/index.php, url: /tejia8}
+- {handler: /uz/tejiaxianggou/index.php, url: /tejiaxianggou}
+- {handler: /uz/tejiayitian/index.php, url: /tejiayitian}
+- {handler: /uz/temaifengqiang/index.php, url: /temaifengqiang}
+- {handler: /uz/tiangou/index.php, url: /tiangou}
+- {handler: /uz/tiantian99/index.php, url: /tiantian99}
+- {handler: /uz/tpl/index.php, url: /tpl}
+- {handler: /uz/trend/index.php, url: /trend}
+- {handler: /uz/tuancu/index.php, url: /tuancu}
+- {handler: /uz/ushow/index.php, url: /ushow}
+- {handler: /uz/vip/index.php, url: /vip}
+- {handler: /uz/vip800/index.php, url: /vip800}
+- {handler: /uz/vipgouyouhui/index.php, url: /vipgouyouhui}
+- {handler: /uz/vipjupianyi/index.php, url: /vipjupianyi}
+- {handler: /uz/viptehui/index.php, url: /viptehui}
+- {handler: /uz/vipzxhd/index.php, url: /vipzxhd}
+- {handler: /uz/vipzxth/index.php, url: /vipzxth}
+- {handler: /uz/wogou/index.php, url: /wogou}
+- {handler: /uz/wowo/index.php, url: /wowo}
+- {handler: /uz/wsdmx/index.php, url: /wsdmx}
+- {handler: /uz/x0123/index.php, url: /x0123}
+- {handler: /uz/xiai/index.php, url: /xiai}
+- {handler: /uz/xianshitehui/index.php, url: /xianshitehui}
+- {handler: /uz/xiaodehao/index.php, url: /xiaodehao}
+- {handler: /uz/xiaoer/index.php, url: /xiaoer}
+- {handler: /uz/xiaoheitejia/index.php, url: /xiaoheitejia}
+- {handler: /uz/xiaoma/index.php, url: /xiaoma}
+- {handler: /uz/xiaoxiqi/index.php, url: /xiaoxiqi}
+- {handler: /uz/xin/index.php, url: /xin}
+- {handler: /uz/xingyun/index.php, url: /xingyun}
+- {handler: /uz/xiuxiu/index.php, url: /xiuxiu}
+- {handler: /uz/xunbao/index.php, url: /xunbao}
+- {handler: /uz/xy520/index.php, url: /xy520}
+- {handler: /uz/yelife/index.php, url: /yelife}
+- {handler: /uz/yinxiang/index.php, url: /yinxiang}
+- {handler: /uz/yinyiquan/index.php, url: /yinyiquan}
+- {handler: /uz/yohui/index.php, url: /yohui}
+- {handler: /uz/youda/index.php, url: /youda}
+- {handler: /uz/yougouvip/index.php, url: /yougouvip}
+- {handler: /uz/youhuihui/index.php, url: /youhuihui}
+- {handler: /uz/youpin/index.php, url: /youpin}
+- {handler: /uz/yuansu/index.php, url: /yuansu}
+- {handler: /uz/yuexiaowanjian/index.php, url: /yuexiaowanjian}
+- {handler: /uz/zhe/index.php, url: /zhe}
+- {handler: /uz/zhe234/index.php, url: /zhe234}
+- {handler: /uz/zhe800/index.php, url: /zhe800}
+- {handler: /uz/zhuanbao/index.php, url: /zhuanbao}
+- {handler: /uz/zhuanxiang/index.php, url: /zhuanxiang}
+- {handler: /uz/ztbest/index.php, url: /ztbest}
+
+#管理页面
+- {handler: /view/admin/login.php, url: /admin/login}
+- {handler: /view/admin/banner.php, url: /admin/banner}
+- {handler: /view/admin/link.php, url: /admin/link}
+- {handler: /view/admin/pro.php, url: /admin/pro}
+- {handler: /view/admin/uz.php, url: /admin/uz}
+- {handler: /view/admin/act.php, url: /admin/act}
+- {handler: /view/admin/group.php, url: /admin/group}
+- {handler: /view/admin/shop.php, url: /admin/shop}
+- {handler: /view/admin/member.php, url: /admin/member}
+- {handler: /view/admin/login.php, url: /admin}
+
+
+
+#远程服务请求配置
+services:
+- {serviceName: taodu_service ,handler: /services/taodu_service.php }
+
+
+
+#安全和权限配置
+#这个是前缀规则, url代表请求相对路径的前缀。
+#role代表安全级别，anonymous是任何用户都可以访问，
+#developer是站点所有者才能访问,
+#shopcustomer 是表示登录用户可以访问
+security:
+- {url: /view/font,role: anonymous }
+- {url: /view/font/user.php,role: shopcustomer }
+- {url: /view/admin,role: developer }
+- {url: /,role: anonymous }
