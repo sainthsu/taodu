@@ -15,6 +15,7 @@
 ##Contact
   * blog:http://www.flakor.cn
   * email:saint@aliyun.com
+
 ##捐助
   支付宝 sainthsu@vip.qq.com
 	
