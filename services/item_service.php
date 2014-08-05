@@ -17,8 +17,8 @@ function getItemDetail($num_iid)
 	);
 
 	$c = new TopClient;
-	$c->appkey = trim('12032290');
-	$c->secretKey = trim('9920d54591bb8b7b3f6e3a0d14487a7a');
+	$c->appkey = "yourkey";
+	$c->secretKey = "yourkey";
 	$req = new TbkItemsDetailGetRequest;
 
 	$req->setFields("num_iid,seller_id,nick,title,price,volume,pic_url,item_url,shop_url");
@@ -78,8 +78,8 @@ function getItemDetail($num_iid)
 function getItemList($keyword,$cid,$sort,$startPrice,$endPrice,$pageNo,$pageSize)
 {
 	$c = new TopClient;
-	$c->appkey = trim('12032290');
-	$c->secretKey = trim('9920d54591bb8b7b3f6e3a0d14487a7a');
+	$c->appkey = "yourkey";
+	$c->secretKey = "yourkey";
 	$req = new TbkItemsGetRequest;
 
 	$req->setFields("num_iid,seller_id,nick,title,price,volume,pic_url,item_url,shop_url");
@@ -168,8 +168,8 @@ function getPromotion($num_iid)
 function getShopDetail($seller_id)
 {
 	$c = new TopClient;
-	$c->appkey = trim('12275944');
-	$c->secretKey = trim('a43867c6001ee49de6eb807c3b0a4030');
+	$c->appkey = "yourkey";
+	$c->secretKey = "yourkey";
 	$req = new TbkShopsDetailGetRequest;
 	$req->setFields("user_id,shop_title,seller_nick,shop_url,pic_url");
 	

@@ -2,3 +2,4 @@
 .backup/
 *.backup
 *~
+api.php
